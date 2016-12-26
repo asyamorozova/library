@@ -1,0 +1,169 @@
+@CHARSET "UTF-8";
+
+body
+{
+	background-image: url(images/space.jpg);
+	margin:0px;
+	padding:0px;	
+}
+
+h1
+{
+	color:white;
+	font-size:62px;
+	/*font-weight:bold;*/
+	font-family:Verdana;	
+}
+
+h2
+{
+	margin-top:-50px;
+	color:white;
+	font-size:32px;
+	/*font-weight:bold;*/
+	font-family:Verdana;	
+}
+
+#button
+{
+	margin-top:40px;
+	width:302px;
+	height:30px;
+	color:white;
+	border: 2px solid white;
+	background: black;
+	opacity:1;
+	font-family:Verdana;
+	font-size:18px;
+	margin-left:95px;
+}
+
+.enter_form
+{	
+	background-color: transparent;
+	overflow: auto;
+	/*border-color:white;*/
+	border: 2px solid white;
+	clear:both;
+	float:none;
+	width:300px;
+	margin-top:-30px;
+	color:white;
+	font-family:Verdana;
+	font-size:16px;
+	opacity: 2;
+	margin-left:95px;
+}
+
+form.login_form
+{
+	clear:both;
+	float:none;
+	opacity: 2;
+}
+
+div.form
+{
+	margin-top:90px;
+	width:40%;
+	margin-left:30%;
+	background-color:white;
+	/*opacity: 0.3;*/
+	background-color: rgba(0, 0, 0, 0.7);
+	/*text-align:center;*/
+	padding:15px;
+	padding-top:5px;
+	padding-bottom:50px;
+}
+
+div.form2
+{
+	margin-top:90px;
+	width:40%;
+	margin-left:30%;
+	background-color:white;
+	/*opacity: 0.3;*/
+	background-color: rgba(0, 0, 0, 0.7);
+	/*text-align:center;*/
+	padding:15px;
+	padding-top:5px;
+	padding-bottom:50px;
+}
+
+.selected{
+	/*border-bottom: 2px white solid;*/
+	font-weight:bold;
+	margin-left:52px;
+}
+
+.change{
+	background-color: transparent;
+	color:white;
+	font-size:22px;
+	font-family:Tahoma;
+	border:0;
+}
+
+div.endent
+{
+	/*margin-left:400px;*/	
+}
+
+p.enter
+{
+	clear:both;
+	color:white;
+	font-size:18px;
+	font-family:Verdana;
+	opacity: 2;
+	margin-left:95px;
+}
+
+ul
+{
+	margin-left:150px;
+	text-align:left;
+	/*margin:0px;*/
+	padding:0px;
+	color:white;
+	font-size:22px;
+	font-family:Tahoma;
+	display:block;
+	margin-bottom:40px;
+	opacity: 2;
+}
+
+li
+{
+	opacity:2;
+	list-style-type:none;
+	float:left;
+	padding-left:10px;
+	display:block;	
+}
+
+
+#sign_up
+{
+	display: none;	
+}
+
+.hidden {
+display: none;
+}
+
+/*input:required {
+    border: 1px solid red; /* Красная рамка для обязательных полей */
+  /*  margin-left:30%;
+   }*/
+
+
+div.header
+{
+	margin-top:-30px;
+	padding:0px;
+	/*background-image: url(images/space_header.jpg);*/
+	width=100%;
+	height=200px;
+    background-repeat: no-repeat;	
+}
